@@ -1,14 +1,22 @@
-# Adaptive Clifford Circuit Verification Simulation
+# 🧮 Quantum Clifford Verification
 
-This simulation demonstrates an adaptive verification protocol for quantum circuits, modeling how confidence bounds tighten with increasing measurement samples.
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![Quantum](https://img.shields.io/badge/Quantum-Computing-blueviolet.svg)](https://en.wikipedia.org/wiki/Quantum_computing)
+[![Statistics](https://img.shields.io/badge/Statistics-Adaptive-orange.svg)](https://en.wikipedia.org/wiki/Adaptive_sampling)
 
-## Scientific Background
+> **Adaptive statistical protocol for distinguishing Clifford and non-Clifford quantum gates using randomized benchmarking and machine learning classification techniques.**
 
-In quantum computing, verifying the fidelity of quantum circuits is essential for ensuring reliable computation. This simulation models a statistical approach where:
+## 🔬 Quantum Verification Science
 
-- The confidence bound on circuit fidelity follows an exponential approach to the true value
-- Adaptive sampling continues until a predefined confidence threshold is reached
-- Different circuit types (Clifford vs. Non-Clifford) exhibit distinct convergence behaviors
+**Quantum circuit verification** is crucial for validating the performance of near-term quantum devices. This simulation explores:
+
+- **🎯 Adaptive Protocols**: Statistical confidence bounds that tighten with increasing measurement samples
+- **🔄 Randomized Benchmarking**: Clifford group properties for efficient quantum process tomography
+- **📊 Confidence Intervals**: Wilson score intervals for robust fidelity estimation under finite sampling
+- **🧠 Circuit Classification**: Machine learning approaches to distinguish gate set properties
+
+### **Statistical Framework**:
+The confidence bound follows the **Wilson score interval**:
 
 ## Implementation Details
 
